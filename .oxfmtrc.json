@@ -1,0 +1,6 @@
+{
+  "singleQuote": true,
+  "tabWidth": 2,
+  "printWidth": 83,
+  "ignorePatterns": ["dist/**", "node_modules/**"]
+}

@@ -1,0 +1,4 @@
+email,first_name,last_name,phone_no,customer_id
+john@example.com,John,Doe,+2348100000001,1001
+jane@example.com,Jane,Roe,+2348100000002,1002
+"o'brien@example.com",Sean,O'Brien,+2348100000003,

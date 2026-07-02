@@ -1,0 +1,45 @@
+{
+  "name": "@bunce/cli",
+  "version": "0.1.0",
+  "description": "Command-line interface for the Bunce customer engagement API",
+  "keywords": [
+    "bunce",
+    "cli",
+    "customer",
+    "email",
+    "messaging"
+  ],
+  "license": "MIT",
+  "bin": {
+    "bunce": "./dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "scripts": {
+    "build": "tsdown",
+    "dev": "tsdown --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check .",
+    "check": "oxlint && oxfmt --check . && tsc --noEmit",
+    "start": "node ./dist/index.mjs"
+  },
+  "dependencies": {
+    "commander": "^15",
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "oxfmt": "^0.57.0",
+    "oxlint": "^1",
+    "tsdown": "^0.22.3",
+    "typescript": "^5.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
