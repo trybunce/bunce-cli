@@ -7,7 +7,7 @@ Modeled on the ergonomics of tools like the Bento CLI, but mapped onto Bunce's a
 ## Install
 
 ```bash
-npm install -g @bunce/cli
+pnpm install -g @bunce/cli
 ```
 
 Requires Node.js 20+ (uses the built-in `fetch`).
@@ -220,17 +220,17 @@ via Bunce's trigger endpoint.
 ## Develop
 
 ```bash
-npm install
-npm run lint          # oxlint
-npm run format        # oxfmt --write
-npm run typecheck     # tsc --noEmit
-npm run check         # lint + format check + typecheck
-npm run build         # emits dist/index.js with a node shebang
+pnpm install
+pnpm run lint          # oxlint
+pnpm run format        # oxfmt --write
+pnpm run typecheck     # tsc --noEmit
+pnpm run check         # lint + format check + typecheck
+pnpm run build         # emits dist/index.js with a node shebang
 node ./dist/index.js --help
 ```
 
 Linting uses [oxlint](https://oxc.rs/docs/guide/usage/linter.html) and formatting
-uses oxfmt (config in `.oxlintrc.json`). `npm run lint:fix` and `npm run format`
+uses oxfmt (config in `.oxlintrc.json`). `pnpm run lint:fix` and `pnpm run format`
 auto-fix where possible.
 
 ---
