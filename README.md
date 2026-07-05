@@ -1,8 +1,6 @@
 # @bunce/cli
 
-A TypeScript command-line interface for the [Bunce](https://bunce.so) customer engagement API.
-
-Modeled on the ergonomics of tools like the Bento CLI, but mapped onto Bunce's actual REST endpoints (customers, events, broadcasts, transactional messaging).
+A command-line interface for the [Bunce](https://bunce.so) customer engagement API.
 
 ## Install
 
